@@ -1,0 +1,16 @@
+Package: nemsisim
+Type: Package
+Title: Generates Synthetic EMS Patient Care Records in NEMSIS 3.5 format
+Version: 0.1.0
+Author: Samuel Kordik
+Maintainer: Samuel Kordik <samuel@samuelkordik.com>
+Description: Generates synthetic (entirely false) EMS patient care record data in 
+    NEMSIS 3.5 format, which is useful for demonstrating analysis approaches,
+    teaching data analytics techniques, or providing example data. Since most EMS
+    data contains PHI or is otherwise proprietary and private, this is useful for
+    providing completely clean, fake data that still makes some notional sense.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    attempt
